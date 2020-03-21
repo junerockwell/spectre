@@ -1500,31 +1500,36 @@ video.video-responsive::before {
   margin-top: .4rem;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: .4rem;
-  padding-right: .4rem;
+.outer {
   width: 100%;
 }
 
-.container.grid-xl {
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px; 
+  padding-left: .4rem;
+  padding-right: .4rem;
+  width: 95%;
+}
+
+.inner.grid-xl {
   max-width: 1296px;
 }
 
-.container.grid-lg {
+.inner.grid-lg {
   max-width: 976px;
 }
 
-.container.grid-md {
+.inner.grid-md {
   max-width: 856px;
 }
 
-.container.grid-sm {
+.inner.grid-sm {
   max-width: 616px;
 }
 
-.container.grid-xs {
+.inner.grid-xs {
   max-width: 496px;
 }
 

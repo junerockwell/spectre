@@ -1,10 +1,14 @@
 // Layout
-.container {
+.outer {
+  width: 100%;
+}
+.inner {
   margin-left: auto;
   margin-right: auto;
   padding-left: $layout-spacing;
   padding-right: $layout-spacing;
-  width: 100%;
+  width: 95%;
+  max-width: 1500px;
 
   $grid-spacing: ($layout-spacing / ($layout-spacing * 0 + 1)) * $html-font-size;
 
